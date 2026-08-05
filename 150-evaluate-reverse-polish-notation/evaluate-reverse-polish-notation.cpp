@@ -17,7 +17,6 @@ public:
                     int b = stoi(st.top());
                     st.pop();
                     val =a+b;
-                    cout<<a<<" "<<b<<i<<" "<<val<<endl; 
                     st.push(to_string(val));
                 }
 
@@ -26,7 +25,6 @@ public:
                     st.pop();
                     int b = stoi(st.top());
                     st.pop();
-                    cout<<a<<" "<<b<<i<<" "<<val<<endl; 
                     val =b-a;
                     st.push(to_string(val));
                 }
@@ -36,7 +34,6 @@ public:
                     st.pop();
                     int b = stoi(st.top());
                     st.pop();
-                    cout<<a<<" "<<b<<i<<" "<<val<<endl; 
                     val =a*b;
                     st.push(to_string(val));
                 }
@@ -48,7 +45,6 @@ public:
                     int b = stoi(st.top());
                     st.pop();
                     val =b/a;
-                    cout<<a<<" "<<b<<i<<" "<<val<<endl; 
                     st.push(to_string(val));
                 }
             }
